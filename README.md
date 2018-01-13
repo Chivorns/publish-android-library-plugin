@@ -1,5 +1,5 @@
 # publish-android-library-plugin
-To help developer to publish their library by short configuration
+To help developers to publish their library with short configuration
 
 ## Introduction
   *	[JCenter/Bintray](https://bintray.com/)
