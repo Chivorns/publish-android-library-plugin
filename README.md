@@ -114,5 +114,17 @@ allprojects {
     }
 }
 ```
+* To check deprecation and unchecked warning message please add this line to check it
+
+```gradle
+allprojects {
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:deprecation"
+            options.compilerArgs << "-Xlint:unchecked"
+        }
+    }
+}
+```
 
 
